@@ -48,6 +48,15 @@ public class Spravochnik {
         System.out.println("Hello, Geek Brains!");
     }
 
+    public static void getListContact() {
+        System.out.println("getListContact");
+    }
+
+    public static void searchContact() {
+        System.out.println("searchContact");
+    }
+
+
     static void addContact(){        
         int a = 300;
         double b = 3.1999;
@@ -59,26 +68,11 @@ public class Spravochnik {
         System.out.println("good day!");
     }
 
-    public static void collMaxNextValume() {
-        int[] collection = new int[] {1, 0, 1, 1, 1, 1, 0, 1};
-        int elem = collection[0];
-        int count = 0;
-        int maxCount = 0;
-        for (int i = 0; i < collection.length; i++){
-            if (elem == collection[i]){
-                count += 1;
-            }
-            else {
-                if(maxCount < count){
-                    maxCount = count;
-                }
-                elem = collection[i];
-                count = 1;
-            }
-        }
-        if(maxCount < count){
-            maxCount = count;
-        }
-        System.out.println(maxCount);
+    public static void editContact() {
+        System.out.println("editContact");
+    }
+
+    public static void deleteContact() {
+        System.out.println("deleteContact");
     }
 }
