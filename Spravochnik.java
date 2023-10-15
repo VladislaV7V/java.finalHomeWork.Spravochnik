@@ -56,7 +56,6 @@ public class Spravochnik {
         System.out.println("searchContact");
     }
 
-
     static void addContact(){        
         int a = 300;
         double b = 3.1999;
